@@ -9,4 +9,12 @@ CREATE TABLE log (
   userAgent VARCHAR(400),
   PRIMARY KEY (id));
   
+  DROP TABLE IF EXISTS blockedips;
+CREATE TABLE blockedips (
+  id INT NOT NULL AUTO_INCREMENT,
+  ip VARCHAR(100),
+  count INT(9),
+  reasonForBlocking VARCHAR(1000),
+  PRIMARY KEY (id));
+  
   
