@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: parser
+Implementation-Version: 2.0.4.RELEASE
+Built-By: tadtab
+Implementation-Vendor-Id: com.tadtab
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/parser
+Created-By: Maven Integration for Eclipse
+
